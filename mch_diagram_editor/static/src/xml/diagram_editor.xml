@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+    <t owl="1" t-name="DiagramEditor">
+        <iframe
+            t-ref="diagramEditor"
+            frameborder="0"
+            class="o_diagram_editor"
+            t-att-src="url"
+        />
+    </t>
+    <t owl="1" t-name="DiagramEditorField">
+        <div>
+            <a
+                class="o_form_uri"
+                t-if="mode === 'readonly'"
+                t-on-click.stop="startEditing"
+                style="cursor: pointer"
+                href="javascript:void(0)"
+            >Edit Diagram<i class="fa fa-pencil-square-o"/></a>
+            <span t-if="mode === 'edit'"/>
+        </div>
+    </t>
+</templates>

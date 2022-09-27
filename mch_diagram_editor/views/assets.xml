@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/mch_diagram_editor/static/src/scss/diagram_editor.scss"/>
+            <script type="text/javascript" src="/mch_diagram_editor/static/src/js/diagram_editor_action.js"></script>
+            <script type="text/javascript" src="/mch_diagram_editor/static/src/js/diagram_editor_component.js"></script>
+            <script type="text/javascript" src="/mch_diagram_editor/static/src/js/diagram_editor_field.js"></script>
+        </xpath>
+    </template>
+</odoo>

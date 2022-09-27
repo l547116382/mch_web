@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="diagram_editor_menu_root" name="Diagram" action="diagram_editor_demo_action" sequence="1"/>
+</odoo>

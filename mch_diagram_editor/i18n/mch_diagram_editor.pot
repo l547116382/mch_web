@@ -1,0 +1,30 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mch_diagram_editor
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-25 02:20+0000\n"
+"PO-Revision-Date: 2022-09-25 02:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: mch_diagram_editor
+#. openerp-web
+#: code:addons/mch_diagram_editor/static/src/js/diagram_editor_field.js:0
+#, python-format
+msgid "The ui optional value is atlas and min."
+msgstr ""
+
+#. module: mch_diagram_editor
+#. openerp-web
+#: code:addons/mch_diagram_editor/static/src/xml/diagram_editor.xml:0
+#, python-format
+msgid "Edit Diagram"
+msgstr ""
