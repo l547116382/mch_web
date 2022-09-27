@@ -3,7 +3,16 @@
     'version': '14.0.1.0.0',
     'category': 'Extra Tools',
     'license': 'LGPL-3',
-    'description': 'Diagram Editor',
+    'description': '''
+Features
+==============
+
+* Drawio Diagram Editor
+* Flowchart Maker
+* process diagrams
+* org charts
+* UML, ER and network diagrams
+    ''',
     'author': 'lmch',
     'maintainer': 'lmch',
     'website': 'https://github.com/l547116382',
